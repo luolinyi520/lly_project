@@ -1,0 +1,43 @@
+Java HotSpot(TM) 64-Bit Server VM (25.131-b11) for windows-amd64 JRE (1.8.0_131-b11), built on Mar 15 2017 01:23:53 by "java_re" with MS VC++ 10.0 (VS2010)
+Memory: 4k page, physical 16683768k(8954872k free), swap 19174136k(8188016k free)
+CommandLine flags: -XX:InitialHeapSize=266940288 -XX:MaxHeapSize=4271044608 -XX:+PrintGC -XX:+PrintGCTimeStamps -XX:+PrintHeapAtGC -XX:+UseCompressedClassPointers -XX:+UseCompressedOops -XX:-UseLargePagesIndividualAllocation -XX:+UseParallelGC 
+{Heap before GC invocations=1 (full 0):
+ PSYoungGen      total 76288K, used 27067K [0x000000076b200000, 0x0000000770700000, 0x00000007c0000000)
+  eden space 65536K, 41% used [0x000000076b200000,0x000000076cc6ed10,0x000000076f200000)
+  from space 10752K, 0% used [0x000000076fc80000,0x000000076fc80000,0x0000000770700000)
+  to   space 10752K, 0% used [0x000000076f200000,0x000000076f200000,0x000000076fc80000)
+ ParOldGen       total 175104K, used 0K [0x00000006c1600000, 0x00000006cc100000, 0x000000076b200000)
+  object space 175104K, 0% used [0x00000006c1600000,0x00000006c1600000,0x00000006cc100000)
+ Metaspace       used 3548K, capacity 4504K, committed 4864K, reserved 1056768K
+  class space    used 394K, capacity 396K, committed 512K, reserved 1048576K
+0.190: [GC (System.gc())  27067K->1169K(251392K), 0.0010760 secs]
+Heap after GC invocations=1 (full 0):
+ PSYoungGen      total 76288K, used 1161K [0x000000076b200000, 0x0000000770700000, 0x00000007c0000000)
+  eden space 65536K, 0% used [0x000000076b200000,0x000000076b200000,0x000000076f200000)
+  from space 10752K, 10% used [0x000000076f200000,0x000000076f3227f8,0x000000076fc80000)
+  to   space 10752K, 0% used [0x000000076fc80000,0x000000076fc80000,0x0000000770700000)
+ ParOldGen       total 175104K, used 8K [0x00000006c1600000, 0x00000006cc100000, 0x000000076b200000)
+  object space 175104K, 0% used [0x00000006c1600000,0x00000006c1602000,0x00000006cc100000)
+ Metaspace       used 3548K, capacity 4504K, committed 4864K, reserved 1056768K
+  class space    used 394K, capacity 396K, committed 512K, reserved 1048576K
+}
+{Heap before GC invocations=2 (full 1):
+ PSYoungGen      total 76288K, used 1161K [0x000000076b200000, 0x0000000770700000, 0x00000007c0000000)
+  eden space 65536K, 0% used [0x000000076b200000,0x000000076b200000,0x000000076f200000)
+  from space 10752K, 10% used [0x000000076f200000,0x000000076f3227f8,0x000000076fc80000)
+  to   space 10752K, 0% used [0x000000076fc80000,0x000000076fc80000,0x0000000770700000)
+ ParOldGen       total 175104K, used 8K [0x00000006c1600000, 0x00000006cc100000, 0x000000076b200000)
+  object space 175104K, 0% used [0x00000006c1600000,0x00000006c1602000,0x00000006cc100000)
+ Metaspace       used 3548K, capacity 4504K, committed 4864K, reserved 1056768K
+  class space    used 394K, capacity 396K, committed 512K, reserved 1048576K
+0.191: [Full GC (System.gc())  1169K->1061K(251392K), 0.0047479 secs]
+Heap after GC invocations=2 (full 1):
+ PSYoungGen      total 76288K, used 0K [0x000000076b200000, 0x0000000770700000, 0x00000007c0000000)
+  eden space 65536K, 0% used [0x000000076b200000,0x000000076b200000,0x000000076f200000)
+  from space 10752K, 0% used [0x000000076f200000,0x000000076f200000,0x000000076fc80000)
+  to   space 10752K, 0% used [0x000000076fc80000,0x000000076fc80000,0x0000000770700000)
+ ParOldGen       total 175104K, used 1061K [0x00000006c1600000, 0x00000006cc100000, 0x000000076b200000)
+  object space 175104K, 0% used [0x00000006c1600000,0x00000006c1709798,0x00000006cc100000)
+ Metaspace       used 3548K, capacity 4504K, committed 4864K, reserved 1056768K
+  class space    used 394K, capacity 396K, committed 512K, reserved 1048576K
+}
